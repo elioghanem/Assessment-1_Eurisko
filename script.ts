@@ -1,5 +1,5 @@
 //ex1:
-/*
+
 function reverseString(str : string):String {
     let newStr : string = "";
     for (let i = str.length - 1; i >= 0; i--) {
@@ -9,10 +9,10 @@ function reverseString(str : string):String {
 }
 
 console.log(reverseString("hello"));
-*/
+
 
 //ex 2:
-/*
+
 function countVowels(str:string):number{
     let count=0;//counter for the vowels
     for(let i=0; i<str.length; i++){
@@ -23,9 +23,9 @@ function countVowels(str:string):number{
     }
     return count;
 }
-console.log(countVowels("typescript"))*/
+console.log(countVowels("typescript"))
 //ex3:
-/*
+
 function findMissingNumber(arr: number[]): number {
     let missingNumber: number =0;
     for (let i = 0; i < arr.length; i++) {
@@ -38,10 +38,10 @@ function findMissingNumber(arr: number[]): number {
 }
 
 console.log(findMissingNumber([1, 2, 4, 5, 6]))
-*/
+
 //ex4:
 
-/*
+
 function firstNonRepeatingChar(str: string): string | null{
     let repeatingChar: string = ""; 
     for (let i = 0; i < str.length; i++) {
@@ -59,10 +59,10 @@ function firstNonRepeatingChar(str: string): string | null{
     return null; 
 }
 console.log(firstNonRepeatingChar("racecar")); 
-*/
+
 
 //ex5:
-/*
+
 function deepEqual(obj1: any, obj2: any): boolean {
     
     if (obj1 === obj2) {
@@ -104,11 +104,11 @@ for (let key in person) {
     console.log(key);  
 }
 
-*/
+
 
 //ex6:
 
-/*
+
 class LRUCache{
     private capacity;
     private cache;
@@ -149,11 +149,11 @@ console.log(cache.get(2));
 cache.put(3, 3);
 console.log(cache.get(2));
 console.log(cache.get(3));
-*/
+
 
 
 //ex:7
-/*
+
 class TaskManager {
     private tasks: { id: number; name: string; status: string }[] = [];
     private currentId: number = 1;// we start the id by one when the first id is created the id will be 1
@@ -191,5 +191,5 @@ taskManager.addTask("Learn javascript");
 taskManager.addTask("Learn react native");
 taskManager.completeTask(3);
 taskManager.displayTasks(); 
-*/
+
 
